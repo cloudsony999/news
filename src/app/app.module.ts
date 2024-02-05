@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNewsComponent } from './top-news/top-news.component';
 import { NewsapiService } from './service/newsapi.service';
+import { ShortPipe } from './short.pipe';
+import { TechNewsComponent } from './tech-news/tech-news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNewsComponent
+    TopNewsComponent,
+    ShortPipe,
+    TechNewsComponent
   ],
   imports: [
     BrowserModule,
